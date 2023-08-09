@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-custom {
+    @apply btn border-none bg-violet-500 font-bold text-white normal-case;
+  }
+}
+
+.menu-horizontal li{
+  margin-right: 6px;
+}
